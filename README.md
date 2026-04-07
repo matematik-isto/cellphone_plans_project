@@ -56,6 +56,30 @@ Megaline offers two prepaid plans: Surf and Ultimate. Comercial department desir
 
 - Ultimate plan yields more income.
 - Users from the NY-NJ area generate less profit that the rest.
+- 
+## 📁 Repository Structure
+```
+├── datasets/
+│   ├── megaline_calls.csv
+│   ├── megaline_internet.csv
+│   ├── megaline_messages.csv
+│   ├── megaline_plans.csv
+│   └── megaline_users.csv
+├── notebooks/
+|   ├── notebook_es.ipynb
+├── README.md
+└── requirements.txt
+```
+## ▶️ How to Run the Project
+
+1. Clone the repository
+2. Install dependencies (pip install -r requirements.txt)
+3. Run the analysis notebooks in Jupyter
+
+## 🚀 Future Improvements
+
+- create english translation
+ 
 ## 🛠️ Tools and Technologies
 
 - Python: pandas, seaborn, scipy
